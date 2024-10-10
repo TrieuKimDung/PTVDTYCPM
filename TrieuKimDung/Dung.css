@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: inline;
+}
+.header ul{
+    border: none;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    list-style-type: none;
+    background-color: white;
+    text-decoration: none;
+}
+.header li a img{
+    width: 150px;
+    height: 150px;
+}
+.header .card1 a{
+    display: inline-block;
+    border: 1px solid gray;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: gray;
+    line-height: 300%;
+    margin-top: 70px;
+    margin-left: 500px;
+    font-size: 10px;
+}
+.header .card1 a span{
+    text-decoration: none;
+    padding-left: 200px;
+}
+.header .card2 a{
+    display: inline-block;
+    background-color: #FF3399;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-left: 430px;
+    padding: 5px 5px 5px 5px;
+}
+.header .card2 a:hover{
+    background-color: yellow;
+    color: red;
+}
+.menu1 ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu1 ul li a{
+    border: 1px none;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding-left: 57px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu1 .card3 li a{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    
+}
+.menu1 ul li a:hover{
+    background-color: #FF3399;
+    color: black;
+}
+.menu1 ul li a:hover .card3 li a{
+    display: block;
+    color: black;
+    background-color: white;
+}
+.content ul{
+    display: flex;
+    padding-left: 20px;
+    list-style-type: none;
+    background-color: white;
+}
+.content ul img{
+    margin-top: 20px;
+    width: 370px;
+    height: 600px;
+    margin-left: 100px;
+    background-color: white;
+}
+.content .card4 a{
+    display: inline-block;
+    width: 370px;
+    height: 100px;
+    border: 1px none;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .card5 a{
+    display: inline-block;
+    width: 370px;
+    height: 100px;
+    border: 1px none;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .card6 a{
+    display: inline-block;
+    width: 370px;
+    height: 100px;
+    border: 1px none;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content ul li a del{
+    color: white;
+    margin-top: 20px;
+}
+.content .card7:hover{
+    color: #ffff66;
+}
